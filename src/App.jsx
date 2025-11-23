@@ -17,10 +17,10 @@ const result = (player1,player2)=>{
   if(player1.id==1){// robot
     switch (player2.id) {
       case 1:
-        setWinner("no one");
+        setWinner("no one win");
         break;
       case 2 : 
-        setWinner("you winne")
+        setWinner("you win")
         break;
       case 3 : 
         setWinner("you lose");
@@ -33,23 +33,23 @@ const result = (player1,player2)=>{
         setWinner("you lose");
         break;
       case 2 : 
-        setWinner("no one")
+        setWinner("no one win")
         break;
       case 3 : 
-        setWinner("you winne");
+        setWinner("you win");
         break;
     }
   }
   if (player1.id === 3 ) {
     switch (player2.id) {
       case 1:
-        setWinner("you wine");
+        setWinner("you win");
         break;
       case 2 : 
         setWinner("you lose")
         break;
       case 3 : 
-        setWinner("no one");
+        setWinner("no one win");
         break;
     }
   }
